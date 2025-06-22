@@ -352,13 +352,16 @@ body {
 
 @media (max-width: 480px) {
     .header {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 10px 2%;
+        padding: 10px 5%;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
     }
 
     .logo {
         font-size: 20px;
+        margin-right: 10px;
+        margin-top: 4px;
     }
 
     .navbar {
@@ -375,13 +378,12 @@ body {
     }
 
     .home {
-        background-position-x: 90%;
-        background-size: cover;
         flex-direction: column;
         justify-content: flex-start;
         height: auto;
         min-height: 100vh;
         padding-top: 80px;
+        background: #081b29;
     }
 
     .home-content {
@@ -392,6 +394,8 @@ body {
 
     .home-content h1 {
         font-size: 26px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .home-content h3 {
@@ -400,29 +404,38 @@ body {
 
     .home-content p {
         font-size: 13px;
+        margin: 15px 0 25px;
+        padding-bottom: 30px;
     }
 
     .btn-box {
         width: 100%;
-        flex-direction: column;
+        flex-direction: row;
         gap: 10px;
         align-items: stretch;
     }
 
     .btn-box a {
-        width: 100%;
-        font-size: 16px;
-        height: 40px;
+        width: 140px;
+        font-size: 19px;
+        height: 44px;
+        padding: 12px;
+        text-align: center;
+        margin: 3px;
+        border-radius: 5px;
+        padding: auto;
+
     }
 
     .home-sci {
-        width: 100px;
-        bottom: -40px;
+        width: 140px;
+        align-items: bottom;
+        bottom: -350px;
     }
 
     .home-sci a {
-        width: 28px;
-        height: 28px;
-        font-size: 14px;
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
     }
 }
